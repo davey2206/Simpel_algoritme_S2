@@ -67,7 +67,12 @@ namespace Simpel_algoritme.tests
             List<Product> actual = order.GetAllProducts(1);
 
             //Assert
-            CollectionAssert.AreEqual(expected, actual);
+            for (int i = 0; i < expected.Count; i++)
+            {
+                Assert.AreEqual(expected[i].Price, actual[i].Price);
+                Assert.AreEqual(expected[i].Name, actual[i].Name);
+            }
+            
         }
 
         [TestMethod]
@@ -94,7 +99,11 @@ namespace Simpel_algoritme.tests
             List<Product> actual = order.products;
 
             //Assert
-            CollectionAssert.AreEqual(expected, actual);
+            for (int i = 0; i < expected.Count; i++)
+            {
+                Assert.AreEqual(expected[i].Price, actual[i].Price);
+                Assert.AreEqual(expected[i].Name, actual[i].Name);
+            }
         }
     }
 }
