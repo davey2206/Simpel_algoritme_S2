@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpel algoritme", "Simpel algoritme\Simpel algoritme.csproj", "{07F2B03C-2C93-46A9-9546-DBEBFCC93FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpel algoritme.tests", "Simpel algoritme.tests\Simpel algoritme.tests.csproj", "{B26702D4-FC6C-478E-8B04-F7539D9E525C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07F2B03C-2C93-46A9-9546-DBEBFCC93FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F2B03C-2C93-46A9-9546-DBEBFCC93FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F2B03C-2C93-46A9-9546-DBEBFCC93FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F2B03C-2C93-46A9-9546-DBEBFCC93FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26702D4-FC6C-478E-8B04-F7539D9E525C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26702D4-FC6C-478E-8B04-F7539D9E525C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26702D4-FC6C-478E-8B04-F7539D9E525C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26702D4-FC6C-478E-8B04-F7539D9E525C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C22ABAC-1C52-489A-B49A-CC9079BBF43E}
+	EndGlobalSection
+EndGlobal
